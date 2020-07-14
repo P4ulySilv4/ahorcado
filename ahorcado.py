@@ -50,6 +50,7 @@ while vidas > 0:
         print(" tu tienes ",+vidas," vidas")
     if vidas== 0:
         print(" Perdiste! palabra= ") 
+        print(list(random.choice(palabra)))
         print("Gracias por participar.")
    
 
